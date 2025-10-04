@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <RadioButton mnemonicParsing="false" selected="true" text="Option 1">
+         <toggleGroup>
+            <ToggleGroup fx:id="optionGroup" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton mnemonicParsing="false" text="Option 2">
+         <toggleGroup>
+            <ToggleGroup fx:id="optionGroup" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton mnemonicParsing="false" text="Option 3">
+         <toggleGroup>
+            <ToggleGroup fx:id="optionGroup" />
+         </toggleGroup>
+      </RadioButton>
+   </children>
+</VBox>

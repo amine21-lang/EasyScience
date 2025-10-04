@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.profile_infos_controller">
+   <top>
+      <HBox prefHeight="0.0" prefWidth="1315.0" spacing="20.0" styleClass="white-background" stylesheets="@../../../project_final_zak/java_ytb/First_one/src/css/styles.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="44.0" prefWidth="166.0" text="Easy science">
+               <font>
+                  <Font name="Edwardian Script ITC" size="30.0" />
+               </font>
+            </Label>
+            <Separator maxHeight="-Infinity" orientation="VERTICAL" prefHeight="38.0" prefWidth="2.0" />
+            <Pane prefHeight="42.0" prefWidth="254.0" styleClass="white-background">
+               <children>
+                  <HBox alignment="CENTER" layoutX="-10.0" layoutY="6.0" maxHeight="-Infinity" prefHeight="29.0" prefWidth="228.0" styleClass="round-layout" stylesheets="@../../../project_final_zak/java_ytb/First_one/src/css/styles.css">
+                     <children>
+                        <TextField prefHeight="25.0" prefWidth="189.0" promptText="search" styleClass="transparent" stylesheets="@../../../EasyScience/src/css/styles.css" />
+                        <HBox alignment="CENTER" prefHeight="22.0" prefWidth="17.0" styleClass="mouse-moved" stylesheets="@../../../project_final_zak/java_ytb/First_one/src/css/styles.css">
+                           <children>
+                              <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../project_final_zak/java_ytb/First_one/src/img/searchzoomminimono_105830.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+               </children>
+            </Pane>
+            <Pane prefHeight="42.0" prefWidth="314.0">
+               <children>
+                  <HBox alignment="CENTER" layoutX="271.0" layoutY="5.0" prefHeight="34.0" prefWidth="33.0" stylesheets="@../../../project_final_zak/java_ytb/First_one/src/css/styles.css">
+                     <styleClass>
+                        <String fx:value="selected" />
+                        <String fx:value="round-layout" />
+                     </styleClass>
+                     <children>
+                        <ImageView fitHeight="24.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../project_final_zak/java_ytb/First_one/src/img/pngegg.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="558.0" prefWidth="187.0" styleClass="white-background" stylesheets="@../../../project_final_zak/java_ytb/First_one/src/css/styles.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="229.0" prefWidth="187.0">
+               <children>
+                  <Separator prefWidth="200.0" />
+                  <Label prefHeight="27.0" prefWidth="90.0" text="Decision">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@../../../project_final_zak/java_ytb/First_one/src/css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/PngItem_5345666%20(1).png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="27.0" prefWidth="127.0" text="Home">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Separator prefWidth="200.0" />
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@../../../project_final_zak/java_ytb/First_one/src/css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../project_final_zak/java_ytb/First_one/src/img/PngItem_194483.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="27.0" prefWidth="127.0" text="Your articles">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Separator prefWidth="200.0" />
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@../../../project_final_zak/java_ytb/First_one/src/css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../project_final_zak/java_ytb/First_one/src/img/pngwing.com.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="44.0" prefWidth="127.0" text="Manage &#10;submission">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Separator prefWidth="200.0" />
+                  <HBox alignment="CENTER" prefHeight="57.0" prefWidth="187.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@../../../project_final_zak/java_ytb/First_one/src/css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../project_final_zak/java_ytb/First_one/src/img/evaluation.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="42.0" prefWidth="127.0" text="Evaluate &#10; article">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Separator prefWidth="200.0" />
+               </children>
+            </VBox>
+            <VBox prefHeight="175.0" prefWidth="187.0" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="TOP_LEFT" layoutX="61.0" layoutY="14.0" prefHeight="69.0" prefWidth="244.0" stylesheets="@css/styles.css" text="Profile Informations" textFill="#000000f5">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="421.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../project_final_zak/java_ytb/First_one/src/img/Capture%20d’écran%202024-05-19%20012558.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-54.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+               <image>
+                  <Image url="@../../../project_final_zak/java_ytb/First_one/src/img/Capture%20d’écran%202024-05-19%20012558.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="508.0" layoutY="470.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../project_final_zak/java_ytb/First_one/src/img/Capture%20d’écran%202024-05-19%20012537.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="37.0" layoutY="121.0" prefHeight="26.0" prefWidth="71.0" text="First name">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="IdFisrtName" layoutX="40.0" layoutY="147.0" stylesheets="@../../../project_final_zak/java_ytb/First_one/src/css/styles.css">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Label layoutX="344.0" layoutY="121.0" prefHeight="26.0" prefWidth="71.0" text="Last name">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="IdLastName" layoutX="347.0" layoutY="147.0" stylesheets="@../../../project_final_zak/java_ytb/First_one/src/css/styles.css">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Label layoutX="36.0" layoutY="207.0" prefHeight="26.0" prefWidth="71.0" text="Domaine">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="IdDomaine" layoutX="39.0" layoutY="233.0" prefHeight="35.0" prefWidth="271.0" stylesheets="@../../../project_final_zak/java_ytb/First_one/src/css/styles.css">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Label layoutX="38.0" layoutY="301.0" prefHeight="26.0" prefWidth="71.0" text="Insitution">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="IdInsitution" layoutX="41.0" layoutY="327.0" prefHeight="35.0" prefWidth="271.0" stylesheets="@../../../project_final_zak/java_ytb/First_one/src/css/styles.css">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Label layoutX="343.0" layoutY="206.0" prefHeight="26.0" prefWidth="71.0" text="UserName">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="IdUserName" layoutX="346.0" layoutY="230.0" prefHeight="39.0" prefWidth="196.0" stylesheets="@../../../project_final_zak/java_ytb/First_one/src/css/styles.css">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Button fx:id="modify_infos" layoutX="414.0" layoutY="389.0" mnemonicParsing="false" onMouseClicked="#click_to_modify_infos" prefWidth="111.0" stylesheets="@css/styles.css" text="Modify" textFill="#5bd0ca">
+               <styleClass>
+                  <String fx:value="black-background" />
+                  <String fx:value="mouse-moved_sra9" />
+                  <String fx:value="radius_black" />
+               </styleClass></Button>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

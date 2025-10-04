@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" prefHeight="140.0" prefWidth="257.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="139.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/51u8ZRDCVoL.jpg" />
+         </image>
+      </ImageView>
+      <VBox prefHeight="236.0" prefWidth="159.0" spacing="10.0">
+         <children>
+            <Label contentDisplay="CENTER" lineSpacing="20.0" prefHeight="65.0" prefWidth="154.0" text="Rich Dad &#10;Poor Dad">
+               <font>
+                  <Font name="Bernard MT Condensed" size="20.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" text="Rich Dad Poor&#10;Dad">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</HBox>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.home_evaluate_finalController">
+   <top>
+      <HBox prefHeight="0.0" prefWidth="1315.0" spacing="20.0" styleClass="white-background" stylesheets="@css/styles.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="44.0" prefWidth="166.0" text="Easy science">
+               <font>
+                  <Font name="Edwardian Script ITC" size="30.0" />
+               </font>
+            </Label>
+            <Separator maxHeight="-Infinity" orientation="VERTICAL" prefHeight="38.0" prefWidth="2.0" />
+            <Pane prefHeight="42.0" prefWidth="254.0" styleClass="white-background">
+               <children>
+                  <HBox alignment="CENTER" layoutX="-10.0" layoutY="6.0" maxHeight="-Infinity" prefHeight="29.0" prefWidth="228.0" styleClass="round-layout" stylesheets="@css/styles.css">
+                     <children>
+                        <TextField prefHeight="25.0" prefWidth="189.0" promptText="search" styleClass="transparent" stylesheets="@../../../../EasyScience/src/css/styles.css" />
+                        <HBox alignment="CENTER" prefHeight="22.0" prefWidth="17.0" styleClass="mouse-moved" stylesheets="@css/styles.css">
+                           <children>
+                              <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/searchzoomminimono_105830.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+               </children>
+            </Pane>
+            <Pane prefHeight="42.0" prefWidth="314.0">
+               <children>
+                  <HBox alignment="CENTER" layoutX="271.0" layoutY="5.0" prefHeight="34.0" prefWidth="33.0" stylesheets="@css/styles.css">
+                     <styleClass>
+                        <String fx:value="mouse-moved" />
+                        <String fx:value="round-layout" />
+                     </styleClass>
+                     <children>
+                        <ImageView fitHeight="24.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/pngegg.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="558.0" prefWidth="187.0" styleClass="white-background" stylesheets="@css/styles.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="167.0" prefWidth="187.0">
+               <children>
+                  <Label prefHeight="27.0" prefWidth="90.0" text="browse">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/4435912.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="27.0" prefWidth="96.0" text="Top Articles">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/compass.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="27.0" prefWidth="96.0" text="Brows">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/default.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="27.0" prefWidth="96.0" text="Categorie">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Separator prefWidth="200.0" />
+            <VBox prefHeight="167.0" prefWidth="187.0">
+               <children>
+                  <Label prefHeight="27.0" prefWidth="90.0" text="Vos Articles">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/PngItem_194483.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="27.0" prefWidth="96.0" text="Vos Articles">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/pngtree-favourite-icon-design-png-image_1017034.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="27.0" prefWidth="96.0" text="Favorie">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/history-2.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="27.0" prefWidth="96.0" text="History">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="167.0" prefWidth="187.0">
+               <children>
+                  <Separator prefWidth="200.0" />
+                  <Label prefHeight="27.0" prefWidth="90.0" text="Evaluate">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" styleClass="selected" stylesheets="@css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/png-clipart-computer-icons-wolfe-s-pool-supply-icon-design-quebec-symbol-evaluation-symbol.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="27.0" prefWidth="96.0" stylesheets="@../../../../EasyScience/src/css/styles.css" text="Evaluate">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" />
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="487.0" prefWidth="1034.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="27.0" prefWidth="219.0" text="Article a evaluer ">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </Label>
+            <ScrollPane prefHeight="338.0" prefWidth="613.0" styleClass="transparent" stylesheets="@../../../../EasyScience/src/css/styles.css">
+               <content>
+                  <HBox fx:id="cardLayout" prefHeight="476.0" prefWidth="1128.0" styleClass="transparent" stylesheets="@../../../../EasyScience/src/css/styles.css">
+                     <children>
+                        <Pane prefHeight="417.0" prefWidth="421.0">
+                           <children>
+                              <HBox layoutX="14.0" layoutY="14.0" prefHeight="133.0" prefWidth="225.0" />
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="131.0" prefWidth="257.0" styleClass="mouse-moved" stylesheets="@css/styles.css">
+                                 <children>
+                                    <ImageView fitHeight="139.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@img/51u8ZRDCVoL.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <VBox prefHeight="236.0" prefWidth="159.0" spacing="10.0" stylesheets="@css/styles.css">
+                                       <children>
+                                          <Label contentDisplay="CENTER" lineSpacing="20.0" prefHeight="65.0" prefWidth="154.0" text="Rich Dad &#10;Poor Dad">
+                                             <font>
+                                                <Font name="Bernard MT Condensed" size="20.0" />
+                                             </font>
+                                          </Label>
+                                          <Label contentDisplay="CENTER" text="Rich Dad Poor&#10;Dad">
+                                             <font>
+                                                <Font name="Berlin Sans FB" size="16.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="320.0" layoutY="10.0" prefHeight="140.0" prefWidth="257.0" styleClass="mouse-moved" stylesheets="@css/styles.css">
+                                 <children>
+                                    <ImageView fitHeight="139.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@img/51u8ZRDCVoL.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <VBox prefHeight="236.0" prefWidth="159.0" spacing="10.0" stylesheets="@css/styles.css">
+                                       <children>
+                                          <Label contentDisplay="CENTER" lineSpacing="20.0" prefHeight="65.0" prefWidth="154.0" text="Rich Dad &#10;Poor Dad">
+                                             <font>
+                                                <Font name="Bernard MT Condensed" size="20.0" />
+                                             </font>
+                                          </Label>
+                                          <Label contentDisplay="CENTER" text="Rich Dad Poor&#10;Dad">
+                                             <font>
+                                                <Font name="Berlin Sans FB" size="16.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="173.0" prefHeight="135.0" prefWidth="257.0" styleClass="mouse-moved" stylesheets="@css/styles.css">
+                                 <children>
+                                    <ImageView fitHeight="139.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@img/51u8ZRDCVoL.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <VBox prefHeight="236.0" prefWidth="159.0" spacing="10.0">
+                                       <children>
+                                          <Label contentDisplay="CENTER" lineSpacing="20.0" prefHeight="65.0" prefWidth="154.0" text="Rich Dad &#10;Poor Dad">
+                                             <font>
+                                                <Font name="Bernard MT Condensed" size="20.0" />
+                                             </font>
+                                          </Label>
+                                          <Label contentDisplay="CENTER" text="Rich Dad Poor&#10;Dad">
+                                             <font>
+                                                <Font name="Berlin Sans FB" size="16.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="318.0" layoutY="168.0" prefHeight="140.0" prefWidth="257.0" styleClass="mouse-moved" stylesheets="@css/styles.css">
+                                 <children>
+                                    <ImageView fitHeight="139.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@img/51u8ZRDCVoL.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <VBox prefHeight="236.0" prefWidth="159.0" spacing="10.0" stylesheets="@css/styles.css">
+                                       <children>
+                                          <Label contentDisplay="CENTER" lineSpacing="20.0" prefHeight="65.0" prefWidth="154.0" text="Rich Dad &#10;Poor Dad">
+                                             <font>
+                                                <Font name="Bernard MT Condensed" size="20.0" />
+                                             </font>
+                                          </Label>
+                                          <Label contentDisplay="CENTER" text="Rich Dad Poor&#10;Dad">
+                                             <font>
+                                                <Font name="Berlin Sans FB" size="16.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <Separator layoutX="292.0" layoutY="5.0" orientation="VERTICAL" prefHeight="149.0" prefWidth="0.0" />
+                              <Separator layoutX="292.0" layoutY="166.0" orientation="VERTICAL" prefHeight="149.0" prefWidth="0.0" />
+                              <Separator layoutX="347.0" layoutY="165.0" prefWidth="200.0" />
+                              <Separator layoutX="46.0" layoutY="165.0" prefWidth="200.0" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

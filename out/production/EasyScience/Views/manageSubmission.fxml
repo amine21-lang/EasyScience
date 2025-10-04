@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.manageSubmission">
+   <children>
+      <Button layoutX="168.0" layoutY="55.0" mnemonicParsing="false" onAction="#addArticle" prefHeight="41.0" prefWidth="233.0" text="Add a submisson">
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Button>
+      <Button layoutX="170.0" layoutY="116.0" mnemonicParsing="false" onAction="#pursueArticle" prefHeight="41.0" prefWidth="233.0" text="Pursue a submission" />
+      <Button layoutX="170.0" layoutY="180.0" mnemonicParsing="false" onAction="#updateArticle" prefHeight="41.0" prefWidth="233.0" text="Update a submission" />
+      <Button layoutX="170.0" layoutY="249.0" mnemonicParsing="false" onAction="#deleteArticle" prefHeight="41.0" prefWidth="233.0" text="Delete a submission" />
+      <Button layoutX="14.0" layoutY="356.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="75.0" text="&lt; Retour" />
+   </children>
+</AnchorPane>

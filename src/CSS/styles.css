@@ -1,0 +1,126 @@
+/* Define a class for elements with white background */
+.white-background {
+  -fx-background-color:  #DCF2F1;
+}
+.mauve-background {
+  -fx-background-color:  #741b47;
+}
+.byad-background {
+  -fx-background-color:  #ffffff;
+}
+.Gray-background {
+  -fx-background-color:  #808080;
+  
+
+}
+.black-background {
+  -fx-background-color:  #000000;
+}
+.Gray-background_for_card {
+  -fx-background-color:  #A0B2C0;
+  -fx-display:flex;
+  -fx-justify-content: space-around;
+
+}
+
+.radius{
+  /* Modifier la valeur en fonction de l'arrondi souhaité */
+  -fx-border-color: #A0B2C0; 
+  /* Couleur de la bordure */ /* Modifier la valeur en fonction de l'arrondi souhaité */
+}
+.radius_white_background {
+  -fx-background-color:  #ffffff;/* Modifier la valeur en fonction de l'arrondi souhaité */
+  -fx-border-color: #A0B2C0; 
+}
+.radius_black{
+   /* Modifier la valeur en fonction de l'arrondi souhaité */
+  -fx-border-color: #000000; 
+  /* Couleur de la bordure */ /* Modifier la valeur en fonction de l'arrondi souhaité */
+}
+.radius_zra9{
+  -fx-border-radius: 5px; /* Modifier la valeur en fonction de l'arrondi souhaité */
+  -fx-border-color: #DCF2F1; /* Couleur de la bordure */ /* Modifier la valeur en fonction de l'arrondi souhaité */
+}
+.addchildren{
+-fx-display: flex;
+-fx-justify-content: space-around;
+
+-fx-flex-wrap: wrap;
+
+}
+
+
+/* Define a class for transparent elements */
+.transparent {
+  -fx-background-color: rgba(9, 3, 0, 0);
+}
+
+/* Define a class for rounded layout */
+.round-layout {
+  -fx-border-radius: 50;
+  -fx-border-color: #070707;
+}
+.round-layout_white {
+  -fx-border-radius: 50;
+  -fx-border-color: #ffffff;
+}
+
+/* Define a class for selected elements */
+.selected {
+  -fx-background-color: #F3F3F3; /* Corrected from -rx-background-color */
+}
+
+/* Define a class for elements with mouse over effect */
+.mouse-moved:hover {
+  -fx-background-color: #ffffff;
+}
+.mouse-moved2:hover {
+  
+  -fx-background-color: #000000;
+}
+.mouse-moved3:hover {
+  -fx-background-color:  #A0B2C0;
+}
+.text-field {
+  -fx-wrap-text: true;
+}
+
+.rectangle-layout {
+  -fx-background-color: #DCF2F1; /* Couleur de fond du rectangle */
+  -fx-border-color: #070707; /* Couleur de la bordure */
+  -fx-border-width: 2px; /* Épaisseur de la bordure */
+  -fx-border-radius: 10px; /* Rayon des coins du rectangle */
+}
+.wh_back_rectangle_k7Al-layout {
+  -fx-background-color: #ffffff; /* Couleur de fond du rectangle */
+  -fx-border-color: #070707; /* Couleur de la bordure */
+  -fx-border-width: 2px; /* Épaisseur de la bordure */
+  -fx-border-radius: 10px; /* Rayon des coins du rectangle */
+}
+.rectangle-layout_white_back {
+  -fx-background-color: #FFFFFF; /* Couleur de fond du rectangle */
+  -fx-border-color: #070707; /* Couleur de la bordure */
+  -fx-border-width: 2px; /* Épaisseur de la bordure */
+  -fx-border-radius: 10px; /* Rayon des coins du rectangle */
+}
+.rectangle-layout_no_back {
+   /* Couleur de fond du rectangle */
+  -fx-border-color: #070707; /* Couleur de la bordure */
+  -fx-border-width: 2px; /* Épaisseur de la bordure */
+  -fx-border-radius: 10px; /* Rayon des coins du rectangle */
+}
+.white_rectangle-layout {
+  /* Couleur de fond du rectangle */
+ -fx-border-color: #ffffff; /* Couleur de la bordure */
+ -fx-border-width: 2px; /* Épaisseur de la bordure */
+ -fx-border-radius: 10px; /* Rayon des coins du rectangle */
+}
+.button-style {
+  -fx-background-color: black; /* Couleur de fond normale */
+  -fx-text-fill: #DCF2F1; /* Couleur du texte normale */
+}
+
+.button-style:hover {
+  -fx-background-color: black; /* Couleur de fond au survol */
+  -fx-text-fill: white; /* Couleur du texte au survol */
+}

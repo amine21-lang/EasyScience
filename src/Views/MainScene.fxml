@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="814.0" style="-fx-background-color: #DCF2F1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MainSceneController">
+   <children>
+      <ImageView fitHeight="219.0" fitWidth="350.0" layoutX="279.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/logoPlan.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="190.0" layoutY="267.0" text="Welcome to the Scientific Publications Management System">
+         <font>
+            <Font name="Wingdings" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="297.0" text="Please press 'Continue' to open the app">
+         <font>
+            <Font name="Wingdings" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="537.0" layoutY="319.0" mnemonicParsing="false" onAction="#btContinueClicked" style="-fx-background-color: transparent;" text="Continue" textFill="#0011ff" underline="true">
+   <font>
+      <Font name="Wingdings 2" size="17.0" />
+   </font>
+</Button>
+   </children>
+</AnchorPane>

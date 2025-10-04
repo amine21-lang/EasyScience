@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.EditeurDecisionSceneController">
+   <top>
+      <HBox prefHeight="0.0" prefWidth="1315.0" spacing="20.0" styleClass="white-background" stylesheets="@../css/styles.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="44.0" prefWidth="166.0" text="Easy science">
+               <font>
+                  <Font name="Edwardian Script ITC" size="30.0" />
+               </font>
+            </Label>
+            <Separator maxHeight="-Infinity" orientation="VERTICAL" prefHeight="38.0" prefWidth="2.0" />
+            <Pane prefHeight="42.0" prefWidth="254.0" styleClass="white-background">
+               <children>
+                  <HBox alignment="CENTER" layoutX="-10.0" layoutY="6.0" maxHeight="-Infinity" prefHeight="29.0" prefWidth="228.0" styleClass="round-layout" stylesheets="@../../../../../AppData/Local/Microsoft/Windows/INetCache/IE/U8PNZY1L/Editeurs/css/styles.css">
+                     <children>
+                        <TextField prefHeight="25.0" prefWidth="189.0" promptText="search" styleClass="transparent" stylesheets="@../../../../../AppData/Local/Microsoft/Windows/INetCache/IE/U8PNZY1L/Editeurs/css/styles.css" />
+                        <HBox alignment="CENTER" prefHeight="22.0" prefWidth="17.0" styleClass="mouse-moved" stylesheets="@../../../../../AppData/Local/Microsoft/Windows/INetCache/IE/U8PNZY1L/Editeurs/css/styles.css">
+                           <children>
+                              <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/searchzoomminimono_105830.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+               </children>
+            </Pane>
+            <Pane prefHeight="42.0" prefWidth="314.0">
+               <children>
+                  <HBox alignment="CENTER" layoutX="271.0" layoutY="5.0" prefHeight="34.0" prefWidth="33.0" stylesheets="@../../../../../AppData/Local/Microsoft/Windows/INetCache/IE/U8PNZY1L/Editeurs/css/styles.css">
+                     <styleClass>
+                        <String fx:value="mouse-moved" />
+                        <String fx:value="round-layout" />
+                     </styleClass>
+                     <children>
+                        <ImageView fitHeight="24.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/pngegg.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="558.0" prefWidth="187.0" styleClass="white-background" stylesheets="@../css/styles.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="208.0" prefWidth="187.0">
+               <children>
+                  <Label prefHeight="27.0" prefWidth="90.0" text="Decision">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" onMouseClicked="#homeClicked" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/PngItem_5345666%20(1).png" />
+                           </image>
+                        </ImageView>
+                        <Label onMouseClicked="#homeClicked" prefHeight="27.0" prefWidth="127.0" text="Home">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Separator prefWidth="200.0" />
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@../css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" onMouseClicked="#chooseEvaClicked" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/vrai.png" />
+                           </image>
+                        </ImageView>
+                        <Label onMouseClicked="#chooseEvaClicked" prefHeight="27.0" prefWidth="127.0" text="Choose evaluators">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Separator prefWidth="200.0" />
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="15.0" styleClass="selected" stylesheets="@../../../../../AppData/Local/Microsoft/Windows/INetCache/IE/U8PNZY1L/Editeurs/css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" onMouseClicked="#MakeDecClicked" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/arrow_decision_outline_icon_139962.png" />
+                           </image>
+                        </ImageView>
+                        <Label onMouseClicked="#MakeDecClicked" prefHeight="44.0" prefWidth="127.0" text="Make a decision ">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Separator prefWidth="200.0" />
+                  <HBox alignment="CENTER" prefHeight="57.0" prefWidth="187.0" spacing="15.0" styleClass="mouse-moved" stylesheets="@../../../../../AppData/Local/Microsoft/Windows/INetCache/IE/U8PNZY1L/Editeurs/css/styles.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" onMouseClicked="#EvaluationProessClicked" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/evaluation.png" />
+                           </image>
+                        </ImageView>
+                        <Label onMouseClicked="#EvaluationProessClicked" prefHeight="42.0" prefWidth="127.0" text="Evaluation &#10;process">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Separator prefWidth="200.0" />
+               </children>
+            </VBox>
+            <VBox prefHeight="175.0" prefWidth="187.0" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="487.0" prefWidth="613.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="TOP_LEFT" prefHeight="51.0" prefWidth="613.0" text="Making Final Decision Based on Reviewer Evaluations :">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </Label>
+            <Pane prefHeight="528.0" prefWidth="613.0">
+               <children>
+                  <TextField fx:id="remarqueID" alignment="TOP_LEFT" layoutX="14.0" layoutY="312.0" prefHeight="132.0" prefWidth="584.0" styleClass="white_rectangle-layout" stylesheets="@../../../../../AppData/Local/Microsoft/Windows/INetCache/IE/css/styles.css" />
+                  <Pane layoutX="298.0" prefHeight="281.0" prefWidth="301.0" styleClass="white-background" stylesheets="@../css/styles.css">
+                     <children>
+                        <Label contentDisplay="CENTER" layoutX="31.0" layoutY="14.0" prefHeight="25.0" prefWidth="181.0" text="Final Decision :" textAlignment="CENTER">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Label>
+                        <Separator layoutX="32.0" layoutY="42.0" prefHeight="3.0" prefWidth="166.0" />
+                        <Separator layoutX="33.0" layoutY="100.0" prefHeight="3.0" prefWidth="235.0" />
+                        <Separator layoutX="33.0" layoutY="158.0" prefHeight="3.0" prefWidth="235.0" />
+                        <Separator layoutX="33.0" layoutY="217.0" prefHeight="3.0" prefWidth="235.0" />
+                        <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="27.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/pngwing.com.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="32.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/danger-icon.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="29.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/refuse.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="29.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/accept-symbol_icon-icons.com_71796.png" />
+                           </image>
+                        </ImageView>
+                        <RadioButton fx:id="acceptedBtn" layoutX="75.0" layoutY="237.0" mnemonicParsing="false" text="Accept">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="decisin" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="refuBtn" layoutX="81.0" layoutY="183.0" mnemonicParsing="false" text="Refuse" toggleGroup="$decisin" />
+                        <RadioButton fx:id="mineurRevbtn" layoutX="67.0" layoutY="62.0" mnemonicParsing="false" text="Minor revision" toggleGroup="$decisin" />
+                        <RadioButton fx:id="majeurREVBtn" layoutX="69.0" layoutY="118.0" mnemonicParsing="false" text="Major revision" toggleGroup="$decisin" />
+                     </children>
+                  </Pane>
+                  <Label contentDisplay="CENTER" layoutX="14.0" layoutY="281.0" prefHeight="25.0" prefWidth="181.0" text="Evaluator evaluation:" textAlignment="CENTER">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="464.0" layoutY="448.0" mnemonicParsing="false" onAction="#ValidateBtnClicked" prefHeight="29.0" prefWidth="135.0" stylesheets="@../../../../../AppData/Local/Microsoft/Windows/INetCache/IE/css/styles.css" text="Validate" textFill="#39c6bd">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="mouse-moved2" />
+                        <String fx:value="rectangle-layout_white_back" />
+                     </styleClass>
+                  </Button>
+                  <TableView fx:id="tableArticles" layoutX="11.0" onMouseClicked="#getSelected" prefHeight="281.0" prefWidth="281.0" stylesheets="@../../../../../AppData/Local/Microsoft/Windows/INetCache/IE/U8PNZY1L/css/styles.css">
+                     <columns>
+                        <TableColumn fx:id="colId" prefWidth="37.0" text="ID" />
+                        <TableColumn fx:id="colTitre" prefWidth="247.60002517700195" text="Article name" />
+                     </columns>
+                  </TableView>
+               </children>
+            </Pane>
+            <HBox alignment="CENTER" prefHeight="37.0" prefWidth="140.0" styleClass="mouse-moved" stylesheets="@../../../../../AppData/Local/Microsoft/Windows/INetCache/IE/U8PNZY1L/Editeurs/css/styles.css" />
+            <HBox alignment="CENTER" prefHeight="37.0" prefWidth="140.0" styleClass="mouse-moved" stylesheets="@../../../../../AppData/Local/Microsoft/Windows/INetCache/IE/U8PNZY1L/Editeurs/css/styles.css" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
